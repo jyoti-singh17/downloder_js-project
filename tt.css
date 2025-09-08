@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+   /* SPINNER  
+/* #box{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+    border-top-color: blue;
+    animation: spin 5s linear 0s infinite ;  
+
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+#progress-bar {
+      width: 300px;
+      background-color: #3a3939;
+      border-radius: 10px;
+      height: 200px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+     
+    }
+#h4{
+    color: beige;
+    margin-top: 50px;
+}
+
+#downloder {
+    height: 10%;
+    width: 120px;
+    background-color: hsl(204, 31%, 16%);
+    border-radius: 10px;
+    margin-top:20px;
+      }
+#progress{
+    height:100%;
+    width: 0%;
+    background-color: white;
+    /* animation: width 3ms ease 1 infinite normal; */
+    transition: width 0.3s ease;
+    border-radius: 10px;
+}
+#text{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font: weight 500px;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+
+    }
